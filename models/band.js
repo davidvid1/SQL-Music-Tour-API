@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Band.init({
-    band_id: DataTypes.INTEGER,
+    event_id: DataTypes.INTEGER,
     name: DataTypes.STRING,
     genre: DataTypes.TEXT,
     available_start_time: DataTypes.DATE,
